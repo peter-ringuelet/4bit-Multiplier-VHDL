@@ -22,7 +22,7 @@ architecture Test of Test_Mul4 is
 
 begin
 	-- Generación del reloj
-    Clock(CLK, 5.747 ns, 5.747 ns);  -- Procedimiento que genera la señal de reloj
+    Clock(CLK, 6 ns, 6 ns);  -- Procedimiento que genera la señal de reloj
 	
     -- Instancia del multiplicador usando mapeo posicional
     mul: Mul4 port map(A_4, B_4, STB, CLK, Result, Done);
@@ -34,7 +34,7 @@ begin
     -- Inicio de la multiplicación
     STB <= '1', '0' after 20 ns; 
 	
-	assert (Done = '0') report "Simulacion finalizada. " severity Note;
+	assert (Done = '1') report "Simulacion finalizada con exito. " severity Note;	
 	
 end Test;
 

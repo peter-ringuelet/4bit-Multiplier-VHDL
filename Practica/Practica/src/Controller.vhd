@@ -9,7 +9,7 @@ end Controller;
 
 architecture FSM of Controller is
   type States is (InitS, CheckS, AddS, ShiftS, EndS);
-  signal State: States := EndS;
+  signal State: States := InitS;
 begin
 -- Drive control outputs based upon State
   Init  <= '1' when State = InitS  else '0';

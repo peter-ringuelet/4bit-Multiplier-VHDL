@@ -14,9 +14,9 @@ begin
     begin
         if Clk'Event and Clk = '1' then
             if Clr = '1' then
-                Q <= (others => '0');  -- Clear the accumulator
+                Q <= (others => '0');  -- Clear 
             elsif LD = '1' then
-                Q <= D;  -- Load the sum into the accumulator
+                Q <= D;  -- Load
             end if;
         end if;
     end process;
