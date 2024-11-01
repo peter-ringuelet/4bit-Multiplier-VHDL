@@ -1,0 +1,10 @@
+.\src\DFF.vhd
+.\src\Latch8.vhd
+.\src\Accumulator.vhd
+.\src\fulladder.vhd
+.\src\Adder8.vhd
+.\src\ShiftN.vhd
+.\src\Controller.vhd
+.\src\Utils.vhd
+.\src\Mul4.vhd
+.\src\Test_Mul4.vhd

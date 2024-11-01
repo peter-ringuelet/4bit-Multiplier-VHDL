@@ -1,0 +1,37 @@
+Active-HDL 15.0.261.9132 2024-10-31 20:53:00
+
+Elaboration top modules:
+Architecture                  Test(Test_Mul4)
+
+
+-----------------------------------------------------------------------------------------------
+Entity      | Architecture | Library  | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------
+Test_Mul4   | Test         | practica |      | 15.0.261.9132 (Windows64) | -O3
+Mul4        | mul          | practica |      | 15.0.261.9132 (Windows64) | -O3
+ShiftN      | Behavior     | practica |      | 15.0.261.9132 (Windows64) | -O3
+Adder8      | Estructura   | practica |      | 15.0.261.9132 (Windows64) | -O3
+Accumulator | Behave       | practica |      | 15.0.261.9132 (Windows64) | -O3
+Controller  | FSM          | practica |      | 15.0.261.9132 (Windows64) | -O3
+fulladder   | ecuacion     | practica |      | 15.0.261.9132 (Windows64) | -O3
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+VHDL Package               | Library  | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------
+standard                   | std      |      |                           | <unavailable>
+Utils                      | practica |      | 15.0.261.9132 (Windows64) | -O3
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+Library                    | Comment
+-----------------------------------------------------------------------------------------------
+practica                   | None
+std                        | Standard VHDL library
+-----------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+test_mul4 test_mul4 test
+
+
+The performance of simulation is reduced. Version Student Edition
