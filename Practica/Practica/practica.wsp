@@ -38,8 +38,8 @@ FileTimeLow=2480076073
 FileTimeHigh=31140600
 Status=Compiled
 [COMPILESTATUS|.\src\Controller.vhd]
-FileTimeLow=344949167
-FileTimeHigh=31140883
+FileTimeLow=701180240
+FileTimeHigh=31140951
 Status=Compiled
 [COMPILESTATUS|.\src\Utils.vhd]
 FileTimeLow=3521850022
@@ -150,8 +150,8 @@ FileTimeLow=3565687224
 FileTimeHigh=31140839
 Status=Compiled
 [COMPILESTATUS|.\src\Test_Mul4.vhd]
-FileTimeLow=2639224287
-FileTimeHigh=31140892
+FileTimeLow=2298759919
+FileTimeHigh=31140953
 Status=Compiled
 [CACHEDOC|Aldec.Hde.HdePlugIn.7|.\Practica\src/Latch8.vhd|]
 CurrentLine=18

@@ -4180,3 +4180,279 @@ run @200ns
 # KERNEL: stopped at time: 200 ns
 endsim
 # VSIM: Simulation has finished.
+asim -O5 +access +r +m+test_mul4 test_mul4 test
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6411 kB (elbread=427 elab2=5848 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Peter\Desktop\Facu\Taller de Arquitectura\Practica\Practica\src\wave.asdb
+#  2:13 AM, Friday, November 1, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Peter/Desktop/Facu/Taller de Arquitectura/Practica/Practica/src/wave.asdb'.
+run @144ns
+# EXECUTION:: NOTE   : Simulacion finalizada con exito. 
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Test_Mul4,  Process: line__37.
+# KERNEL: stopped at time: 144 ns
+acom -O3 -e 100 -work Practica -2002  $dsn/src/DFF.vhd $dsn/src/Latch8.vhd $dsn/src/Accumulator.vhd $dsn/src/fulladder.vhd $dsn/src/Adder8.vhd $dsn/src/ShiftN.vhd $dsn/src/Controller.vhd $dsn/src/Utils.vhd $dsn/src/Mul4.vhd $dsn/src/Test_Mul4.vhd
+# Compile Entity "DFF"
+# Compile Architecture "flujodedatos" of Entity "DFF"
+# Compile Entity "Test_DFF"
+# Compile Architecture "Driver" of Entity "Test_DFF"
+# Compile Entity "Latch8"
+# Compile Architecture "Estructura" of Entity "Latch8"
+# Compile Entity "Test_Latch8"
+# Compile Architecture "Driver" of Entity "Test_Latch8"
+# Compile Entity "Accumulator"
+# Compile Architecture "Behave" of Entity "Accumulator"
+# Compile Entity "fulladder"
+# Compile Architecture "ecuacion" of Entity "fulladder"
+# Compile Entity "test_sumador"
+# Compile Architecture "driver" of Entity "test_sumador"
+# Compile Entity "Test_16"
+# Compile Architecture "Behave_1" of Entity "Test_16"
+# Compile Entity "Adder8"
+# Compile Architecture "Estructura" of Entity "Adder8"
+# Compile Entity "Test_Adder8"
+# Compile Architecture "Driver" of Entity "Test_Adder8"
+# Compile Entity "ShiftN"
+# Compile Architecture "Behavior" of Entity "ShiftN"
+# Compile Entity "Test_ShiftN"
+# Compile Architecture "Driver" of Entity "Test_ShiftN"
+# Compile Entity "Controller"
+# Compile Architecture "FSM" of Entity "Controller"
+# Compile Entity "Test_Controller"
+# Compile Architecture "Driver" of Entity "Test_Controller"
+# Compile Package "Utils"
+# Compile Package Body "Utils"
+# Compile Entity "Test_Utils"
+# Compile Architecture "Driver" of Entity "Test_Utils"
+# Compile Entity "Mul4"
+# Compile Architecture "mul" of Entity "Mul4"
+# Compile Entity "Test_Mul4"
+# Compile Architecture "Test" of Entity "Test_Mul4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+test_mul4 test_mul4 test
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6411 kB (elbread=427 elab2=5848 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Peter\Desktop\Facu\Taller de Arquitectura\Practica\Practica\src\wave.asdb
+#  2:38 AM, Friday, November 1, 2024
+#  Simulation has been initialized
+# add wave -noreg {/Test_Mul4/A_4}
+# add wave -noreg {/Test_Mul4/B_4}
+# add wave -noreg {/Test_Mul4/STB}
+# add wave -noreg {/Test_Mul4/CLK}
+# add wave -noreg {/Test_Mul4/Result}
+# add wave -noreg {/Test_Mul4/Done}
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Peter/Desktop/Facu/Taller de Arquitectura/Practica/Practica/src/wave.asdb'.
+run @200ns
+# EXECUTION:: NOTE   : Simulacion finalizada con exito. 
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /Test_Mul4,  Process: line__37.
+# KERNEL: stopped at time: 200 ns
+acom -O3 -e 100 -work Practica -2002  $dsn/src/Controller.vhd
+# Compile Entity "Controller"
+# Compile Architecture "FSM" of Entity "Controller"
+# Compile Entity "Test_Controller"
+# Compile Architecture "Driver" of Entity "Test_Controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Practica -2002  $dsn/src/Test_Mul4.vhd
+# Compile Entity "Test_Mul4"
+# Compile Architecture "Test" of Entity "Test_Mul4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Practica -2002  $dsn/src/DFF.vhd $dsn/src/Latch8.vhd $dsn/src/Accumulator.vhd $dsn/src/fulladder.vhd $dsn/src/Adder8.vhd $dsn/src/ShiftN.vhd $dsn/src/Controller.vhd $dsn/src/Utils.vhd $dsn/src/Mul4.vhd $dsn/src/Test_Mul4.vhd
+# Compile Entity "DFF"
+# Compile Architecture "flujodedatos" of Entity "DFF"
+# Compile Entity "Test_DFF"
+# Compile Architecture "Driver" of Entity "Test_DFF"
+# Compile Entity "Latch8"
+# Compile Architecture "Estructura" of Entity "Latch8"
+# Compile Entity "Test_Latch8"
+# Compile Architecture "Driver" of Entity "Test_Latch8"
+# Compile Entity "Accumulator"
+# Compile Architecture "Behave" of Entity "Accumulator"
+# Compile Entity "fulladder"
+# Compile Architecture "ecuacion" of Entity "fulladder"
+# Compile Entity "test_sumador"
+# Compile Architecture "driver" of Entity "test_sumador"
+# Compile Entity "Test_16"
+# Compile Architecture "Behave_1" of Entity "Test_16"
+# Compile Entity "Adder8"
+# Compile Architecture "Estructura" of Entity "Adder8"
+# Compile Entity "Test_Adder8"
+# Compile Architecture "Driver" of Entity "Test_Adder8"
+# Compile Entity "ShiftN"
+# Compile Architecture "Behavior" of Entity "ShiftN"
+# Compile Entity "Test_ShiftN"
+# Compile Architecture "Driver" of Entity "Test_ShiftN"
+# Compile Entity "Controller"
+# Compile Architecture "FSM" of Entity "Controller"
+# Compile Entity "Test_Controller"
+# Compile Architecture "Driver" of Entity "Test_Controller"
+# Compile Package "Utils"
+# Compile Package Body "Utils"
+# Compile Entity "Test_Utils"
+# Compile Architecture "Driver" of Entity "Test_Utils"
+# Compile Entity "Mul4"
+# Compile Architecture "mul" of Entity "Mul4"
+# Compile Entity "Test_Mul4"
+# Compile Architecture "Test" of Entity "Test_Mul4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim -O5 +access +r +m+test_mul4 test_mul4 test
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6411 kB (elbread=427 elab2=5848 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Peter\Desktop\Facu\Taller de Arquitectura\Practica\Practica\src\wave.asdb
+#  9:14 AM, Friday, November 1, 2024
+#  Simulation has been initialized
+# add wave -noreg {/Test_Mul4/A_4}
+# add wave -noreg {/Test_Mul4/B_4}
+# add wave -noreg {/Test_Mul4/STB}
+# add wave -noreg {/Test_Mul4/CLK}
+# add wave -noreg {/Test_Mul4/Result}
+# add wave -noreg {/Test_Mul4/Done}
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Peter/Desktop/Facu/Taller de Arquitectura/Practica/Practica/src/wave.asdb'.
+run @200ns
+# EXECUTION:: NOTE   : Simulacion finalizada con exito. 
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /Test_Mul4,  Process: line__37.
+# EXECUTION:: NOTE   : Simulacion finalizada con exito. 
+# EXECUTION:: Time: 168 ns,  Iteration: 2,  Instance: /Test_Mul4,  Process: line__37.
+# KERNEL: stopped at time: 200 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Practica -2002  $dsn/src/DFF.vhd $dsn/src/Latch8.vhd $dsn/src/Accumulator.vhd $dsn/src/fulladder.vhd $dsn/src/Adder8.vhd $dsn/src/ShiftN.vhd $dsn/src/Controller.vhd $dsn/src/Utils.vhd $dsn/src/Mul4.vhd $dsn/src/Test_Mul4.vhd
+# Compile Entity "DFF"
+# Compile Architecture "flujodedatos" of Entity "DFF"
+# Compile Entity "Test_DFF"
+# Compile Architecture "Driver" of Entity "Test_DFF"
+# Compile Entity "Latch8"
+# Compile Architecture "Estructura" of Entity "Latch8"
+# Compile Entity "Test_Latch8"
+# Compile Architecture "Driver" of Entity "Test_Latch8"
+# Compile Entity "Accumulator"
+# Compile Architecture "Behave" of Entity "Accumulator"
+# Compile Entity "fulladder"
+# Compile Architecture "ecuacion" of Entity "fulladder"
+# Compile Entity "test_sumador"
+# Compile Architecture "driver" of Entity "test_sumador"
+# Compile Entity "Test_16"
+# Compile Architecture "Behave_1" of Entity "Test_16"
+# Compile Entity "Adder8"
+# Compile Architecture "Estructura" of Entity "Adder8"
+# Compile Entity "Test_Adder8"
+# Compile Architecture "Driver" of Entity "Test_Adder8"
+# Compile Entity "ShiftN"
+# Compile Architecture "Behavior" of Entity "ShiftN"
+# Compile Entity "Test_ShiftN"
+# Compile Architecture "Driver" of Entity "Test_ShiftN"
+# Compile Entity "Controller"
+# Compile Architecture "FSM" of Entity "Controller"
+# Compile Entity "Test_Controller"
+# Compile Architecture "Driver" of Entity "Test_Controller"
+# Compile Package "Utils"
+# Compile Package Body "Utils"
+# Compile Entity "Test_Utils"
+# Compile Architecture "Driver" of Entity "Test_Utils"
+# Compile Entity "Mul4"
+# Compile Architecture "mul" of Entity "Mul4"
+# Compile Entity "Test_Mul4"
+# Compile Architecture "Test" of Entity "Test_Mul4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+test_mul4 test_mul4 test
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6411 kB (elbread=427 elab2=5848 kernel=135 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Peter\Desktop\Facu\Taller de Arquitectura\Practica\Practica\src\wave.asdb
+#  9:28 AM, Friday, November 1, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Peter/Desktop/Facu/Taller de Arquitectura/Practica/Practica/src/wave.asdb'.
+# add wave -noreg {/Test_Mul4/A_4}
+# add wave -noreg {/Test_Mul4/B_4}
+# add wave -noreg {/Test_Mul4/STB}
+# add wave -noreg {/Test_Mul4/CLK}
+# add wave -noreg {/Test_Mul4/Result}
+# add wave -noreg {/Test_Mul4/Done}
+# KERNEL: Warning: KERNEL_0291 Object "/Test_Mul4/A_4" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Test_Mul4/B_4" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Test_Mul4/STB" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Test_Mul4/CLK" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Test_Mul4/Result" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/Test_Mul4/Done" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Peter/Desktop/Facu/Taller de Arquitectura/Practica/Practica/src/wave.asdb'.
+run @200ns
+# EXECUTION:: NOTE   : Simulacion finalizada con exito. 
+# EXECUTION:: Time: 0 ps,  Iteration: 1,  Instance: /Test_Mul4,  Process: line__37.
+# EXECUTION:: NOTE   : Simulacion fin
